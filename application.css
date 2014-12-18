@@ -5,11 +5,11 @@ body {
 }
 
 ul li a {
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
 }
 
 ul li a:hover {
-    -webkit-transform: scale(5.0);
-    -moz-transform: scale(5.0);
+  -webkit-transform: scale(5.0);
+  -moz-transform: scale(5.0);
 }
