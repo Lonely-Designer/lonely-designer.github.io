@@ -5,7 +5,7 @@ body {
 }
 
 ul li a {
-  display: block;
+  display: inline-block;
   -webkit-transition: all 0.1s ease;
   transition: all 0.1s ease;
 }
