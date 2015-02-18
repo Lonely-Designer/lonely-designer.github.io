@@ -2,7 +2,8 @@ $(function()
 {
   function init()
   {
-
+    // Load Yo Name
+    $('#entry_1188111055').val(localStorage.getItem('yoName'));
   }
 
   $(window).load(function()
@@ -36,5 +37,10 @@ $(function()
       $toggle.removeClass('toggle--show').addClass('toggle--hidden');
     }
     $(this).hide();
+  });
+
+  $('#ss-form').submit(function() {
+    // Save Yo Name
+    localStorage.setItem('yoName', $('#entry_1188111055').val());
   });
 });
