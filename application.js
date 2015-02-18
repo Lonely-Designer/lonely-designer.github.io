@@ -27,4 +27,14 @@ $(function()
 
     init();
   });
+
+  $('.toggle__switch').click(function() {
+    var $toggle = $(this).next('.toggle');
+    if ($toggle.hasClass('toggle--hidden')) {
+      $toggle.removeClass('toggle--hidden').addClass('toggle--show');
+    } else {
+      $toggle.removeClass('toggle--show').addClass('toggle--hidden');
+    }
+    $(this).hide();
+  });
 });

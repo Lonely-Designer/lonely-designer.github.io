@@ -22,3 +22,13 @@ ul li a:hover {
   top: 10px;
   right: 10px;
 }
+
+.toggle.toggle--hidden {
+  display: none;
+}
+.toggle.toggle--show {
+  display: inline;
+}
+.toggle__switch {
+  cursor: pointer;
+}
