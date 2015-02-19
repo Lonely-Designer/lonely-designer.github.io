@@ -2,8 +2,8 @@ $(function()
 {
   function init()
   {
-    // Load Yo Name
-    $('#entry_1188111055').val(localStorage.getItem('yoName'));
+    // Load Tweet Name
+    $('#entry_1188111055').val(localStorage.getItem('tweetName'));
   }
 
   $(window).load(function()
@@ -40,7 +40,7 @@ $(function()
   });
 
   $('#ss-form').submit(function() {
-    // Save Yo Name
-    localStorage.setItem('yoName', $('#entry_1188111055').val());
+    // Save Tweet Name
+    localStorage.setItem('tweetName', $('#entry_1188111055').val());
   });
 });
