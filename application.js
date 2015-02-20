@@ -56,7 +56,7 @@ $(function()
     http.setRequestHeader('Connection', 'close');
     http.onreadystatechange = function() {
       if(http.readyState == 4 && http.status == 200) {
-        alert('Yo!');
+        alert('YO送信完了！');
       }
     }
     http.send(params);
